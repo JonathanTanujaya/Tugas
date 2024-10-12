@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:latihan_widget/LatihanWidget.dart';
+import 'package:utama/GaleriFoto.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return const MaterialApp(
-      home: WidgetDemo(),
+      home: Galerifoto(),
     );
   }
 }
